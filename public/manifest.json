@@ -1,0 +1,32 @@
+{
+  "short_name": "Google",
+  "name": "Google",
+  "icons": [
+    {
+      "src": "icongoogle.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "icon192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#1A0FB0",
+  "background_color": "#F1F2FF",
+  "orientation": "portrait",
+  "scope": "/",
+  "prefer_related_applications": false,
+  "permissions": ["notifications"],
+  "gcm_sender_id": "YOUR_SENDER_ID"
+}

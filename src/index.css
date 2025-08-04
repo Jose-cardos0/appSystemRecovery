@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+@keyframes spin-logo {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.animate-spin-logo {
+  animation: spin-logo 5s linear infinite;
+}
