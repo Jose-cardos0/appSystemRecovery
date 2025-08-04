@@ -1,6 +1,6 @@
 {
-  "short_name": "Google",
-  "name": "Google",
+  "short_name": "American System",
+  "name": "American System",
   "icons": [
     {
       "src": "icongoogle.png",
@@ -30,3 +30,4 @@
   "permissions": ["notifications"],
   "gcm_sender_id": "YOUR_SENDER_ID"
 }
+
